@@ -24,6 +24,8 @@ data.key = argv.key || data.key
 data.cert = argv.cert || data.cert
 data.scheme = argv.scheme || data.scheme
 
+console.log('data', data)
+
 // MAIN
 if (data.scheme === 'https') {
   var options = {
