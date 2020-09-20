@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "gund": "bin/gund.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/spux/gund.git"
@@ -18,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/spux/gund/issues"
   },
-  "homepage": "https://github.com/spux/gund#readme"
+  "homepage": "https://github.com/spux/gund#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "gun": "^0.2020.520",
+    "http": "0.0.1-security",
+    "https": "^1.0.0",
+    "minimist": "^1.2.5"
+  }
 }
