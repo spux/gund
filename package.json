@@ -1,6 +1,6 @@
 {
   "name": "gund",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "gun daemon",
   "main": "index.js",
   "scripts": {
