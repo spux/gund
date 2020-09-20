@@ -15,7 +15,7 @@ globalThis.data = {
   port: 8765,
   key: './privkey.pem',
   cert: './fullchain.pem',
-  scheme: 'https'
+  scheme: 'http'
 }
 
 // INIT
